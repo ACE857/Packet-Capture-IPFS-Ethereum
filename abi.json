@@ -1,0 +1,76 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "d",
+				"type": "string"
+			},
+			{
+				"name": "h",
+				"type": "string"
+			}
+		],
+		"name": "addData",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "adminAddress",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "data",
+		"outputs": [
+			{
+				"name": "date",
+				"type": "string"
+			},
+			{
+				"name": "hash",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "idf",
+				"type": "uint256"
+			}
+		],
+		"name": "getDataHash",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
